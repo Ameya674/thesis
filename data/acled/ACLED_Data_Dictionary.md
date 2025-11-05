@@ -7,7 +7,7 @@ This document explains the meaning, units/encodings, and shows an example value 
 | event_id_cnty | Unique event identifier by number and country acronym (updated annually). | Text ID | object | USA23310 |
 | event_date | Calendar date on which the event took place. | Date (YYYY-MM-DD) | object | 2020-01-01 |
 | year | Year in which the event took place. | YYYY | int64 | 2020 |
-| time_precision | Temporal precision of the event date. | Code: 1=exact day; 2=week (midpoint used); 3=month (midpoint or first/last) | int64 | 1 |
+| time_precision | Temporal precision of the event date. | Code: 1=exact day; 2=week (midpoint used); 3=month (midpoint or first/last) | int64 | 1,2,3 |
 | disorder_type | Top-level disorder classification associated with the event/sub-event type (e.g., Political violence, Demonstrations, Strategic developments). | Category label | object | Demonstrations |
 | event_type | Event type per ACLED typology (e.g., Battles, Explosions/Remote violence, Protests, Riots, Strategic developments, Violence against civilians). | Category label | object | Protests |
 | sub_event_type | Sub-event type per ACLED typology (e.g., Armed clash, Air/drone strike, Peaceful protest). | Category label | object | Peaceful protest |

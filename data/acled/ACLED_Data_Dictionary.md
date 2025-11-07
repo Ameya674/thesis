@@ -33,5 +33,5 @@ This document explains the meaning, units/encodings, and shows an example value 
 | source_scale | Scale of the source. | Category: local, regional, national, international | object | Other-Subnational |
 | notes | Short description of the event. | Free text | object | On 1 January 2020, an unknown number of people associated with the Cleveland Association of Rescue Employees demonstrated at the City Hall in Cleveland (Ohio) to demand mental health benefits. This event was a part of an ongoing strike for new contra |
 | fatalities | Number of reported fatalities associated with the event. | Persons (count) | int64 | 0 |
-| tags | Tags associated with the event (ACLED metadata). | Text | object | crowd size=no report |
+| tags | Number of people present at the event. | Text | object | crowd size=no report |
 | timestamp | Data processing timestamp (numeric). | Numeric time code | int64 | 1612546518 |

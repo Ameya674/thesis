@@ -1,0 +1,4 @@
+# Python environment
+thesis_env/
+# Large CCC CSVs – keep only locally
+data/ccc/ccc_compiled_*.csv

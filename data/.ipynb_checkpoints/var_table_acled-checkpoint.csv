@@ -1,0 +1,32 @@
+variable,unique_values,missing_pct
+actor1,"209 unique (top 10: Protesters (United States), Rioters (United States), Patriot Front, Sole Perpetrator (United States), GDL: Goyim Defense League, American Contingency, WLM: White Lives Matter, P...",0.0
+admin1,"51 unique (top 10: California, New York, Florida, Pennsylvania, Massachusetts, Illinois, Texas, Michigan, North Carolina, Ohio)",0.0
+country,United States,0.0
+disorder_type,"Demonstrations, Political violence, Political violence; Demonstrations, Strategic developments",0.0
+event_date,"2103 unique (top 10: 2025-06-14, 2025-04-05, 2020-06-06, 2020-05-31, 2025-07-17, 2020-06-02, 2020-06-01, 2020-05-30, 2020-06-07, 2020-06-03)",0.0
+event_id_cnty,"89474 unique (top 10: USA90533, USA23310, USA90333, USA90325, USA90315, USA90517, USA90498, USA90474, USA90469, USA90456)",0.0
+event_type,"Battles, Explosions/Remote violence, Protests, Riots, Strategic developments, Violence against civilians",0.0
+fatalities,"0, 1, 2, 3, 4, 5, 6, 7, 9, 10, 14, 22",0.0
+geo_precision,"1, 2, 3",0.0
+inter1,"Civilians, External/Other forces, Identity militia, Political militia, Protesters, Rioters, State forces",0.0
+interaction,"32 unique (top 10: Protesters only, Protesters-Protesters, Identity militia only, State forces-Protesters, State forces-Rioters, Political militia-Civilians, Political militia only, Rioters-Civilia...",0.0
+iso,840,0.0
+latitude,"6674 unique (top 10: 40.7834, 42.3591, 37.7793, 39.9525, 40.6904, 38.8875, 34.0693, 33.7559, 32.7174, 47.6056)",0.0
+location,"5330 unique (top 10: New York - Manhattan, Boston, San Francisco, Philadelphia, New York - Brooklyn, Washington DC - National Mall, Los Angeles - Central, Atlanta, San Diego, Seattle)",0.0
+longitude,"6776 unique (top 10: -73.9663, -71.0639, -122.4193, -75.1636, -73.9862, -77.0364, -118.3118, -84.3898, -117.166, -122.333)",0.0
+notes,"89469 unique (top 10: Around 23 March 2021 (as reported), hundreds of hotel workers with Unite Here rallied and passed out leaflets on Oahu, Maui, and Kauai islands (Hawaii) calling on visitors to ...",0.0
+region,North America,0.0
+source,"24011 unique (top 10: Telegram, Twitter, MilitiaWatch, Fight Back News, CBS News, It's Going Down, Indybay, Crowd Counting Consortium; Twitter, Protest_NYC, Boston Globe)",0.0
+source_scale,"23 unique (top 10: Subnational, Other-Subnational, National, Other, Subnational-National, New media, New media-Subnational, Other-New media, Local partner-New media, Other-National)",0.0
+sub_event_type,"Abduction/forced disappearance, Armed clash, Arrests, Attack, Change to group/activity, Disrupted weapons use, Excessive force against protesters, Grenade, Looting/property destruction, Mob violenc...",0.0
+time_precision,"1, 2, 3",0.0
+timestamp,"1118 unique (top 10: 1753970861, 1753970908, 1758048341, 1753970711, 1754411458, 1757450382, 1744754812, 1744754813, 1757377241, 1755021530)",0.0
+year,"2020, 2021, 2022, 2023, 2024, 2025",0.0
+admin2,"1349 unique (top 10: New York, Los Angeles, District of Columbia, Cook, Suffolk, San Diego, Orange, San Francisco, Philadelphia, Kings)",0.11
+tags,"4497 unique (top 10: crowd size=no report, crowd size=dozens, crowd size=hundreds, crowd size=more than 100, crowd size=about 100, counter-demonstration; crowd size=no report, crowd size=about 50, ...",5.28
+assoc_actor_1,"12252 unique (top 10: BLM: Black Lives Matter, Students (United States), Labor Group (United States), Women (United States), Indivisible Movement, LGBTQ+ (United States), Teachers (United States), ...",25.45
+actor2,"82 unique (top 10: Protesters (United States), Civilians (United States), Police Forces of the United States (2017-2021), Police Forces of the United States (2021-2025), Police Forces of the United...",90.88
+inter2,"Civilians, External/Other forces, Identity militia, Political militia, Protesters, Rebel group, Rioters, State forces",90.88
+assoc_actor_2,"738 unique (top 10: LGBTQ+ (United States), BLM: Black Lives Matter, Jewish Group (United States), African American Group (United States), Women (United States), Students (United States), Christian...",96.33
+civilian_targeting,Civilian targeting,98.98
+admin3,,100.0

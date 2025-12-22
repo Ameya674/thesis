@@ -1,9 +1,0 @@
-variable,unique_values,missing_pct
-Curated,"No, Yes",0.0
-Date,"1464 unique (top 10: 2018-03-14, 2018-06-30, 2020-06-06, 2018-03-24, 2020-05-31, 2018-04-20, 2017-01-21, 2020-05-30, 2020-06-02, 2020-06-05)",0.0
-Event (legacy; see tags),"895 unique (top 10: Racial Injustice, Executive, Other, Civil Rights, Immigration, Healthcare, Collective Bargaining, Guns, Education, Guns (National Walkout Day))",0.0
-Location,"10037 unique (top 10: Washington, DC, New York, NY, Detroit, MI, Louisville, KY, Portland, OR, Los Angeles, CA, Chicago, IL, Austin, TX, Philadelphia, PA, San Francisco, CA)",0.0
-Source,"30981 unique (top 10: https://www.dallasnews.com/news/2020/06/17/dallas-police-investigating-reports-of-man-pulling-gun-during-encounter-with-protesters-in-uptown/, https://www.kivitv.com/news/honk...",0.0
-Tags,"2208 unique (top 10: Civil Rights; For racial justice; For greater accountability; Police, Guns; For greater gun control; National Walkout Day, Guns; For greater gun control, Civil Rights; For wome...",0.0
-Total Articles,"131 unique (top 10: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10)",0.0
-Attendees,"371 unique (top 10: 100.0, 20.0, 200.0, 50.0, 1000.0, 10.0, 30.0, 300.0, 150.0, 40.0)",39.53

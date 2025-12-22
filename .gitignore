@@ -1,4 +1,37 @@
 # Python environment
 thesis_env/
+
 # Large CCC CSVs – keep only locally
 data/ccc/ccc_compiled_*.csv
+
+# --------------------
+# Jupyter Notebook junk
+# --------------------
+# Auto-generated notebook checkpoints
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# --------------------
+# Python cache files
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+
+# --------------------
+# Virtual environments (just in case you use different names)
+# --------------------
+venv/
+.env/
+.venv/
+env/
+
+# --------------------
+# OS / editor files
+# --------------------
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/

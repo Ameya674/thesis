@@ -1,38 +1,31 @@
-# Python environment
+# ====================================================================
+# THESIS DATA PROTECTION (Ignore all data files)
+# ====================================================================
+# Ignore all CSV, TSV, and ZIP files in the data directory and subdirectories
+data/**/*.csv
+data/**/*.tsv
+data/**/*.zip
+
+# Ignore specific large data directories entirely
+data/nibrs/
+data/crosswalk/
+data/acled/
+data/count_love/
+data/ccc/
+
+# Exception: Allow Jupyter Notebooks and Markdown inside data folders
+!data/**/*.ipynb
+!data/**/*.md
+
+# ====================================================================
+# PYTHON & JUPYTER DEBRIS
+# ====================================================================
 thesis_env/
-
-# Large CCC CSVs – keep only locally
-data/ccc/ccc_compiled_*.csv
-
-# --------------------
-# Jupyter Notebook junk
-# --------------------
-# Auto-generated notebook checkpoints
 .ipynb_checkpoints/
-**/.ipynb_checkpoints/
+**/ .ipynb_checkpoints/
 *-checkpoint.ipynb
-
-# --------------------
-# Python cache files
-# --------------------
 __pycache__/
 *.py[cod]
-*.pyo
 
-# --------------------
-# Virtual environments (just in case you use different names)
-# --------------------
-venv/
-.env/
-.venv/
-env/
-
-# --------------------
-# OS / editor files
-# --------------------
+# OS files
 .DS_Store
-*.swp
-*.swo
-.idea/
-.vscode/
-data/offense_segment_csv_1991_2024.zip

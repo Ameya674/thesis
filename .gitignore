@@ -1,31 +1,14 @@
-# ====================================================================
-# THESIS DATA PROTECTION (Ignore all data files)
-# ====================================================================
-# Ignore all CSV, TSV, and ZIP files in the data directory and subdirectories
-data/**/*.csv
-data/**/*.tsv
-data/**/*.zip
+# Ignore everything in the data directory by default
+data/**/*
 
-# Ignore specific large data directories entirely
-data/nibrs/
-data/crosswalk/
-data/acled/
-data/count_love/
-data/ccc/
-
-# Exception: Allow Jupyter Notebooks and Markdown inside data folders
+# Explicitly allow (un-ignore) all Jupyter Notebooks and Markdown files
 !data/**/*.ipynb
 !data/**/*.md
 
-# ====================================================================
-# PYTHON & JUPYTER DEBRIS
-# ====================================================================
-thesis_env/
+# Standard Python/Jupyter ignores
 .ipynb_checkpoints/
 **/ .ipynb_checkpoints/
-*-checkpoint.ipynb
 __pycache__/
 *.py[cod]
-
-# OS files
+thesis_env/
 .DS_Store

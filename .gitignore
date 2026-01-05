@@ -1,14 +1,19 @@
-# Ignore everything in the data directory by default
-data/**/*
+# 1. Ignore all files in these specific data folders
+data/nibrs/*
+data/crosswalk/*
+data/ccc/*
+data/acled/*
+data/count_love/*
 
-# Explicitly allow (un-ignore) all Jupyter Notebooks and Markdown files
-!data/**/*.ipynb
-!data/**/*.md
+# 2. But allow (un-ignore) the Jupyter Notebooks inside them
+!data/nibrs/*.ipynb
+!data/crosswalk/*.ipynb
+!data/ccc/*.ipynb
+!data/acled/*.ipynb
+!data/count_love/*.ipynb
 
-# Standard Python/Jupyter ignores
+# 3. Standard Python/Jupyter ignores
 .ipynb_checkpoints/
 **/ .ipynb_checkpoints/
 __pycache__/
-*.py[cod]
 thesis_env/
-.DS_Store
